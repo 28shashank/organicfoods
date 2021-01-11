@@ -1,0 +1,22 @@
+@mixin filler2 {
+    background: #F9EEF9;
+    border-radius: 8px;
+}
+@mixin filler3 {
+    background: #F5DBD8;
+    border-radius: 8px;
+}
+@mixin background-pos {
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: none; 
+}
+@mixin btn-primary-style {
+    background-color: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.295743); /*set the color you want here*/
+}
+@mixin outline-secondary {
+    background-color: #6AD372 !important;
+    border: 1px solid #6AD372 !important;
+    color: $white !important;
+}
