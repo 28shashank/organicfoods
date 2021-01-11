@@ -390,9 +390,15 @@ a.carousel-control-prev {
 a.carousel-control-next {
     right: -34px;
 }
+.carousel-inner {
+    position: initial;
+}
 .carousel-item {
     height: 300px;
-	left: -35px;
+    left: -35px;
+    &:hover {
+        position: absolute;
+    }
 	.list-item {
 		width: 170px;
 		height: 240px;

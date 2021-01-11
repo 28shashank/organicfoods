@@ -484,9 +484,17 @@ a.carousel-control-next {
   right: -34px;
 }
 
+.carousel-inner {
+  position: initial;
+}
+
 .carousel-item {
   height: 300px;
   left: -35px;
+}
+
+.carousel-item:hover {
+  position: absolute;
 }
 
 .carousel-item .list-item {
