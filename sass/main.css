@@ -162,6 +162,24 @@ input:focus, textarea:focus, select:focus, button, button:focus {
   /*set the color you want here*/
 }
 
+.btn-primary:active {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  /*set the color you want here*/
+}
+
+.btn-primary:visited {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  /*set the color you want here*/
+}
+
+.btn-primary .active {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  /*set the color you want here*/
+}
+
 .flex-container {
   display: -webkit-box;
   display: -ms-flexbox;

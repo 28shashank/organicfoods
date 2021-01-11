@@ -20,7 +20,7 @@ $(document).ready(function () {
 });
 
 // Page scroll add and remove class
-$(window).scroll(function () {
+$('body').scroll(function (e) {
     if ($(this).scrollTop() > 100) {
         $(".header_area").addClass("darkHeader");
     } else {

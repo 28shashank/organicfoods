@@ -119,6 +119,7 @@ input:focus, textarea:focus, select:focus, button, button:focus {
 		border: 1px solid $light-pink; /*set the color you want here*/
 	}
 }
+
 .btn-primary {
     background: $light-pink;
     border-radius: 24px;
@@ -136,6 +137,15 @@ input:focus, textarea:focus, select:focus, button, button:focus {
 		@include btn-primary-style;
 	}
 	&:focus {
+		@include btn-primary-style;
+	}
+	&:active {
+		@include btn-primary-style;
+	}
+	&:visited {
+		@include btn-primary-style;
+	}
+	.active {
 		@include btn-primary-style;
 	}
 }
